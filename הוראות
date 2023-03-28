@@ -1,0 +1,57 @@
+Scaffold-DbContext "Server=DESKTOP-57BCMEC; Database=Library; User ID=sa;Password=73490038;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+
+api
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-7.0&tabs=visual-studio
+https://www.c-sharpcorner.com/blogs/create-apis-using-net-core-31
+autorecatio in sql
+https://stackoverflow.com/questions/43606232/entity-framework-cannot-open-database-requested-by-the-login-the-login-failed
+
+
+configurationservice
+ public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddHttpClient();
+            services.AddDbContext<LibraryContext>(options =>
+            options.UseSqlServer(Configuration["DbConnection"]));
+            services.AddHealthChecks();
+            services.AddMvc();
+
+            services.AddTransient<IBookService,  BookService>();
+        }
+
+
+
+
+Data access
+https://www.c-sharpcorner.com/article/an-elegant-C-Sharp-data-access-layer-using-the-template-pattern-a/
+https://gist.github.com/selim07/4705ae22db316416308c
+
+
+
+
+
+
+
+
+
+refernces
+https://www.c-sharpcorner.com/article/three-tier-architecture-in-asp-net-core-6-web-api/
+
+
+
+
+http client
+https://angular.io/guide/http
+
+
+
+
+cors
+https://www.yogihosting.com/aspnet-core-enable-cors/
+
+
+
+bootstrap
+https://www.w3schools.com/bootstrap/bootstrap_get_started.asp

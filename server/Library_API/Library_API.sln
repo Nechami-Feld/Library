@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_API", "Library_API\Library_API.csproj", "{24CBC268-35D4-4B69-9AF9-D57A4B680D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library_Dal", "Library_Dal\Library_Dal.csproj", "{FAA191D0-C3A9-4AAB-A2F1-4BA28EE0655B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24CBC268-35D4-4B69-9AF9-D57A4B680D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CBC268-35D4-4B69-9AF9-D57A4B680D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CBC268-35D4-4B69-9AF9-D57A4B680D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CBC268-35D4-4B69-9AF9-D57A4B680D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA191D0-C3A9-4AAB-A2F1-4BA28EE0655B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA191D0-C3A9-4AAB-A2F1-4BA28EE0655B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA191D0-C3A9-4AAB-A2F1-4BA28EE0655B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA191D0-C3A9-4AAB-A2F1-4BA28EE0655B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60C9373E-6183-44B8-95A9-B5A9B5CF8F66}
+	EndGlobalSection
+EndGlobal
